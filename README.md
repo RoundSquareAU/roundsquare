@@ -10,6 +10,7 @@
 
 This project was built with:
 
+-   [Drone CI](https://drone.io/)
 -   [Express](https://expressjs.com/)
 -   [Parcel](https://parceljs.org/)
 -   [React](https://reactjs.org/)
