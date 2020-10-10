@@ -1,6 +1,5 @@
 # RoundSquare
 
-[![Build Status](https://img.shields.io/drone/build/RoundSquareAU/roundsquare?server=https%3A%2F%2Fdrone.roundsquare.site)](https://drone.roundsquare.site/RoundSquareAU/roundsquare)
 ![GitHub Release](https://img.shields.io/github/v/release/RoundSquareAU/roundsquare?include_prereleases)
 ![License](https://img.shields.io/github/license/RoundSquareAU/roundsquare)
 
