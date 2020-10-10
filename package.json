@@ -17,7 +17,7 @@
 		"build": "npm run rimraf && npm run build:client && npm run build:server",
 		"build:client": "parcel build public/index.html -d dist/client",
 		"build:server": "tsc -p tsconfig.server.json",
-		"lint": "prettier -w **/*.* && sort-package-json",
+		"lint": "prettier -w * && sort-package-json",
 		"rimraf": "rimraf dist .cache",
 		"start": "node dist/server/index.js",
 		"start:client": "concurrently -r -k \"tsc -p tsconfig.client.json --watch --noEmit\" \"npm:watch:client -s -- --log-level 0\"",
