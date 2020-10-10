@@ -2,7 +2,7 @@
 	"tabWidth": 4,
 	"overrides": [
 		{
-			"files": ["*.yml", "firestore.rules", "storage.rules"],
+			"files": ["*.yml"],
 			"options": {
 				"tabWidth": 2
 			}
