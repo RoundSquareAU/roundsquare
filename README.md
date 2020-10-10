@@ -35,13 +35,13 @@ gh repo clone RoundSquareAU/roundsquare
 
 ### Development
 
-Run the development server, with [TypeScript](https://www.typescriptlang.org/) and [Parcel](https://parceljs.org/).
+Run the development server, with [Parcel](https://parceljs.org/).
 
 ```sh
 npm run start:client
 ```
 
-Run the server, with [TypeScript](https://www.typescriptlang.org/).
+Run the server, with [nodemon](https://nodemon.io/).
 
 ```sh
 npm run start:server
@@ -49,7 +49,7 @@ npm run start:server
 
 ### Production
 
-Build the client with Parcel and the server with TypeScript.
+Build the client with [Parcel](https://parceljs.org/) and the server with [TypeScript](https://www.typescriptlang.org/).
 
 ```sh
 npm run build
@@ -63,7 +63,7 @@ npm start
 
 ### Miscellaneous
 
-Run prettier on both the client and the server, and sort the `package.json` files.
+Run prettier on both the client and the server, and sort the `package.json` file.
 
 ```sh
 npm run lint
