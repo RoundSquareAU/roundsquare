@@ -14,10 +14,10 @@ Run the [Express](https://expressjs.com/) server.
 npm start
 ```
 
-Build the [Docker](https://www.docker.com/) container.
+Lint the source.
 
 ```
-docker build . -t ja1den/roundsquare
+npm run lint
 ```
 
 ## License
