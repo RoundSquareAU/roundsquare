@@ -1,4 +1,4 @@
-// Packages
+// Import
 import 'colors';
 
 import path from 'path';
@@ -13,7 +13,7 @@ const start = Date.now();
 const app = express();
 app.use(cors());
 
-app.use(express.static(path.resolve(__dirname, '../client')));
+app.use(express.static(path.resolve(__dirname, '../public')));
 
 const server = http.createServer(app);
 server.listen(3000);
